@@ -19,11 +19,11 @@ git push -u origin master
 Se deberá entregar a través del formulario de prácticas indicando la URL del repositorio. En el repositorio, deberá existir un archivo readme.md con las respuestas a las siguientes preguntas:
 
 - ¿Qué comando utilizaste en el paso 11? ¿Por qué?  
-**git reset --hard HEAD~1**  
+**git reset --hard HEAD~1**   
 Porque con "--hard" sí se "afecta" al WC. Sin usar ese modificador nos quedamos con los cambios recientes, que no es lo que se nos pide. 
 
 - ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?  
-Para averiguar el Hash del commit al que quiero volver: **git reflog**  
+Para averiguar el Hash del commit al que quiero volver: **git reflog**   
 Para restaurar la versión del fichero "git-nuestro.md", ya que quiero la que estaba en el commit recuperado (con estilos): **git restore git-nuestro.md**
 
 - El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?  
@@ -48,22 +48,22 @@ Sí, porque “title” y “master” ya formaban una lista, tras haberse hecho
 **git restore git-nuestro.md** (y hemos perdido el título que se añadió). 
 
 - ¿Qué comando o comandos utilizaste en el paso 29?  
-**git branch -D title **
+**git branch -D title**
 
 - ¿Qué comando o comandos utilizaste en el paso 30?  
-**git reflog** Para localizar el Hash del commit que me interesa 
-**git reset 25524a0** Para cambiar a ese commit (que es el del merge que quiero rehacer)
-**git restore git-nuestro.md** Para deshacer la eliminación del título 
+**git reflog** Para localizar el Hash del commit que me interesa   
+**git reset 25524a0** Para cambiar a ese commit (que es el del merge que quiero rehacer)   
+**git restore git-nuestro.md** Para deshacer la eliminación del título  
 
 - ¿Qué comando o comandos usaste en el paso 32?  
-**git log** Para buscar el Hash correspondiente 
-**git reset 066e0a1** Para cambiar al commit 
-**git diff HEAD** Para verificar cuáles son las diferencias en el contenido del fichero  
-**git restore git-nuestro.md** Para descartar los añadidos al poema
+**git log** Para buscar el Hash correspondiente  
+**git reset 066e0a1** Para cambiar al commit  
+**git diff HEAD** Para verificar cuáles son las diferencias en el contenido del fichero   
+**git restore git-nuestro.md** Para descartar los añadidos al poema  
 
 - ¿Qué comando o comandos usaste en el punto 33?  
-**git reflog** Para localizar el Hash del commit que me interesa 
-**git reset b58272c** Para cambiar al commit 
+**git reflog** Para localizar el Hash del commit que me interesa  
+**git reset b58272c** Para cambiar al commit  
 **git diff HEAD** Para verificar cuáles son las diferencias en el contenido del fichero  
 **git restore git-nuestro.md** Para recuperar los estilos y título  
 
