@@ -18,14 +18,14 @@ git push -u origin master
 ## Enunciados y respuestas: 
 Se deberá entregar a través del formulario de prácticas indicando la URL del repositorio. En el repositorio, deberá existir un archivo readme.md con las respuestas a las siguientes preguntas:
 
-- ¿Qué comando utilizaste en el paso 11? ¿Por qué?
-git reset --hard HEAD~1
+- ¿Qué comando utilizaste en el paso 11? ¿Por qué? 
+*git reset --hard HEAD~1*
 Porque con "--hard" sí se "afecta" al WC. Sin usar ese modificador nos quedamos con los cambios recientes, que no es lo que se nos pide. 
 
 
 - ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
-Para averiguar el Hash del commit al que quiero volver: git reflog 
-Para restaurar la versión del fichero "git-nuestro.md", ya que quiero la que estaba en el commit recuperado (con estilos): git restore git-nuestro.md 
+Para averiguar el Hash del commit al que quiero volver: *git reflog*
+Para restaurar la versión del fichero "git-nuestro.md", ya que quiero la que estaba en el commit recuperado (con estilos): *git restore git-nuestro.md*
 
 
 - El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
