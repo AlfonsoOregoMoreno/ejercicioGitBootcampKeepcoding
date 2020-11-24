@@ -1,19 +1,23 @@
 # ejercicio 1 Git
 
--------------
-Preparativos: 
+## Preparativos: 
 -------------
 echo "# ejercicioGitBootcampKeepcoding" >> README.md
+
 git init
+
 git add README.md
+
 git commit -m "first commit"
+
 git branch -M master
+
 git remote add origin https://github.com/AlfonsoOregoMoreno/ejercicioGitBootcampKeepcoding.git
+
 git push -u origin master
 
-------------------------
-Enunciados y respuestas: 
-------------------------
+
+## Enunciados y respuestas: 
 
 Se deberá entregar a través del formulario de prácticas indicando la URL del repositorio. En el
 repositorio, deberá existir un archivo readme.md con las respuestas a las siguientes preguntas:
